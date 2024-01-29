@@ -1,8 +1,9 @@
 import './App.css'
-import Floorplan from "./FloorPlan"
+// import Floorplan from "./FloorPlan"
 import Bedroom from './Bedroom'
 import Kitchen from './Kitchen'
 import Bath from './Bath'
+import LivingRoom from './LivingrRoom'
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <Kitchen kitchenStuffs = {["Oven", "Sink"]}/>
       <Bath size="Full"/>
       <Bedroom bedroomNum = {2} />
-      
+      <LivingRoom />
       <Bath size="Half"/>
       <Bedroom bedroomNum = {3} />
     </div>
