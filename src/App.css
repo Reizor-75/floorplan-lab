@@ -6,31 +6,94 @@ html, body {
 }
 
 div{
-  border: 1px solid grey;
+  /* border: 1px solid grey;
   margin: 5px;
-  padding: 5px;
+  padding: 5px;  */
 }
+
+.FloorPlan{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: auto;
+}
+
+.upper{
+  display: flex;
+  justify-content: center;
+}
+
+.upper-left{
+  display: flex;
+  flex-direction: column;
+  margin: auto
+}
+
+.bottom{
+  display: flex;
+}
+
 
 .Bedroom{
   background-color: steelblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
 }
 
 .LivingRoom{
   background-color: tan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
 }
 
 .Kitchen{
   background-color: goldenrod;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+}
+
+.appliances{
+  display: flex;
+  height: 50px;
+  top: 0;
+}
+
+#Bath-Full{
+  width: 200px;
+  height: 100px;
+}
+
+#Bath-Half{
+  width: 100px;
+  height: 200px;
 }
 
 .Bath{
   background-color: olivedrab;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Oven{
   background-color: firebrick;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
 }
 
 .Sink{
   background-color: chocolate;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  width: 50px;
 }

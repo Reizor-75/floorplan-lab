@@ -7,14 +7,20 @@ import LivingRoom from './LivingrRoom'
 
 function App() {
   return (
-    <div>
-      <Bedroom bedroomNum = {1} />
-      <Kitchen kitchenStuffs = {["Oven", "Sink"]}/>
-      <Bath size="Full"/>
-      <Bedroom bedroomNum = {2} />
-      <LivingRoom />
-      <Bath size="Half"/>
-      <Bedroom bedroomNum = {3} />
+    <div className='FloorPlan'>
+      <span className='upper'>
+        <span className='Upper-Left'>
+          <Bedroom bedroomNum = {1} />      
+          <Bath size="Full"/>
+        </span>
+        <LivingRoom />
+        <Kitchen kitchenStuffs = {["Oven", "Sink"]}/>
+      </span>
+      <span className='bottom'>
+        <Bedroom bedroomNum = {2} />
+        <Bath size="Half"/>
+        <Bedroom bedroomNum = {3} />
+      </span>
     </div>
   )
 }
