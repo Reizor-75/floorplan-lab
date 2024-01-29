@@ -10,3 +10,27 @@ div{
   margin: 5px;
   padding: 5px;
 }
+
+.Bedroom{
+  background-color: steelblue;
+}
+
+.LivingRoom{
+  background-color: tan;
+}
+
+.Kitchen{
+  background-color: goldenrod;
+}
+
+.Bath{
+  background-color: olivedrab;
+}
+
+.Oven{
+  background-color: firebrick;
+}
+
+.Sink{
+  background-color: chocolate;
+}
